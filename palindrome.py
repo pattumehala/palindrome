@@ -1,11 +1,6 @@
-ch=123
-reverse=0
-n=ch
-while(ch!=0):
-  digit=ch%10
-  reverse=reverse*10+digit
-  ch=ch/10
-if(reverse==n):
-  print("Yes")
+ch=raw_input()
+if(ch==ch[::-1]):
+  print("yes")
 else:
-  print("No")
+  print("no")
+   
